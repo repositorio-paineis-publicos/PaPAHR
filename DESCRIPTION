@@ -1,10 +1,10 @@
 Package: PaPAHR
-Title: What the Package Does (One Line, Title Case)
+Title: Pacote da Produtividade Ambulatorial e Hospitalar do R
 Version: 1.0.0
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Este pacote foi desenvolvido para gerar tabelas que alimentam um dashboard de indicadores da Produtividade Ambulatorial e Hospitalar, voltado especificamente para os estabelecimentos de saúde da Rede EBSERH. Ele automatiza a coleta e o tratamento de dados provenientes dos Sistemas de Informação em Saúde do DATASUS, com o objetivo de apoiar a gestão hospitalar na tomada de decisões, promovendo agilidade e padronização na produção de informações estratégicas em saúde.
 License: file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
