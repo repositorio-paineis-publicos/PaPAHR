@@ -4,12 +4,13 @@
 ![CRAN status](https://www.r-pkg.org/badges/version/microdatasus)
 <!-- badges: end -->
 
-Este pacote foi desenvolvido para gerar tabelas que alimentam um dashboard de indicadores da Produtividade Ambulatorial e Hospitalar, voltado especificamente para os estabelecimentos de saúde da Rede EBSERH. Ele automatiza a coleta e o tratamento de dados provenientes dos Sistemas de Informação em Saúde do DATASUS, com o objetivo de apoiar a gestão hospitalar na tomada de decisões, promovendo agilidade e padronização na produção de informações estratégicas em saúde.
+Este pacote foi desenvolvido para gerar tabelas que alimentam o dashboard de indicadores da Produtividade Ambulatorial e Hospitalar, voltado especificamente para qualquer estabelecimentos de saúde que faça atendimento ao SUS. Ele automatiza a coleta e o tratamento de dados provenientes dos Sistemas de Informação em Saúde do DATASUS, com o objetivo de apoiar a gestão hospitalar na tomada de decisões, promovendo agilidade e padronização na produção de informações estratégicas em saúde.
 
 Atualmente, o pacote integra os seguintes sistemas disponibilizados pelo DATASUS: SIA-PA, SIH-RD, SIH-RJ, SIH-SP e CNES-ST.
 
 Para uma descrição detalhada de cada um desses sistemas, recomenda-se a leitura do e-book elaborado por Raphael Saldanha, disponível neste [link](https://rfsaldanha.github.io/sis/).
 
+Para mais detalhes das especificidades do projeto consulte o artigo em [link](https://ojs.focopublicacoes.com.br/foco/article/view/10099/7123)
 
 # Instalação
 Para instalar o pacote **PaPAHR**, é necessário que o pacote `remotes` já esteja instalado no seu ambiente R.
@@ -65,4 +66,4 @@ dados = create_output_PA_from_local(
 ```
 
 # Informações de contato
-Caso tenha alguma dúvida, entre em contato comigo pelo e [gustaa1320\@gmail.com](mailto:gusta1320@gmail.com).
+Caso tenha alguma dúvida, entre em contato com algum dos autores do artigo PAPAHR–PACOTE DA PRODUTIVIDADE AMBULATORIAL E HOSPITALAR DO SUS NO R.
