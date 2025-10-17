@@ -42,7 +42,7 @@ Optar por utilizar as funções que acessam diretamente os servidores do DATASUS
 # Exemplos
 A forma de utilização dessas funções é semelhante. A seguir, são apresentados dois exemplos: um para as funções principais e outro para as funções principais locais. 
 ```r
-library(PaRGHA)
+library(PaPAHR)
 
 dados = create_output_PA(
   year_start = 2023,
