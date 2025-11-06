@@ -24,7 +24,7 @@ remotes::install_github("danicat/read.dbc")
 ```
 Por fim, utilize o código abaixo para instalar o pacote PaPAHR:
 ```r
-remotes::install_github("abelbrasil/PaPAHR")
+remotes::install_github("repositorio-paineis-publicos/PaPAHR")
 ```
 # Funções
 Para utilizar o pacote, o usuário deve selecionar o Sistema de Informação em Saúde (SIS) de interesse — SIA-PA, SIH-RD, SIH-RJ ou SIH-SP. Para cada um desses sistemas, há uma função principal responsável pela criação das tabelas. Além disso, o usuário deve definir a origem dos microdados do DATASUS, que podem ser obtidos diretamente dos servidores do DATASUS ou a partir de um diretório local.
